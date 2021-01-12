@@ -3,7 +3,7 @@
 ## Graphics, Game engines, Game AI
 
 - [Real-Time Rendering](http://www.realtimerendering.com/book.html)
-- [Physically Based Rendering](https://phr-book.org)
+- [Physically Based Rendering](https://pbr-book.org)
 - [Game Engine Architecture](https://www.gameenginebook.com)
 - [Foundations of Game Engine Development series](https://foundationsofgameenginedev.com/)
 - Mathematics for 3D Game Programming and Computer Graphics
