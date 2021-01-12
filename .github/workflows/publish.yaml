@@ -1,4 +1,5 @@
 name: "Publish"
+environment: deploy
 on:
   # Run only when pushing to master branch
   push:
