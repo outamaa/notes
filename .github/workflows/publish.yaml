@@ -1,5 +1,4 @@
 name: "Publish"
-environment: deploy
 on:
   # Run only when pushing to master branch
   push:
@@ -7,6 +6,7 @@ on:
       - master
 jobs:
   neuron:
+    environment: deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
