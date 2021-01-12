@@ -17,6 +17,8 @@ inventory = ./inventory
 
 ## Bootstrapping the server
 
+In case the server does not have Python installed.
+
 `bootstrap.yml`
 
 ``` yaml
