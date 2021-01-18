@@ -1,6 +1,6 @@
 # Git tips and tricks
 
-* Stashing
+## Stashing
 
 Stash tracked changes with `git stash`.
 
