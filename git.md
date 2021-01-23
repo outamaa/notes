@@ -20,3 +20,13 @@ Create new branch with stashed changes:
 ``` shell
 git stash branch <branchname>
 ```
+
+## Fetching
+
+### Fetch and merge upstream
+
+```shell
+$ git fetch upstream
+$ git checkout <branch>
+$ git merge upstream/<branch> 
+```
