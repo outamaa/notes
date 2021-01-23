@@ -21,7 +21,13 @@ Create new branch with stashed changes:
 git stash branch <branchname>
 ```
 
-## Fetching
+## Remote
+
+### Add remote
+
+```shell
+$ git remote add <remotename> <url>
+```
 
 ### Fetch and merge upstream
 
