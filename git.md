@@ -34,5 +34,34 @@ $ git remote add <remotename> <url>
 ```shell
 $ git fetch upstream
 $ git checkout <branch>
-$ git merge upstream/<branch> 
+$ git merge upstream/<branch>
+```
+
+### Cherry picking
+
+#### Cherry pick merge from another branch
+
+For cherry picking merge commits, you need to specify which parent of
+the merge will be used. This can be specified with `-m`
+
+``` shell
+# Get the parent commits
+
+$ git show <merge commit sha>
+commit <merge commit sha>
+Merge: <parent 1 sha> <parent 2 sha>
+# ...
+
+
+```
+
+## Settings
+
+### Global settings
+
+``` shell
+git config --global user.name "Ville Outamaa"
+git config --global user.email my@email.com
+git config --global core.editor emacs
+# etc
 ```
