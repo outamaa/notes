@@ -29,6 +29,18 @@ git stash branch <branchname>
 $ git remote add <remotename> <url>
 ```
 
+## Branches
+
+### Removing branches
+
+``` shell
+# Remove local branch
+git branch -d <branch>
+
+# Remove remote branch
+git push origin --delete <branch>
+```
+
 ### Fetch and merge upstream
 
 ```shell
@@ -37,9 +49,9 @@ $ git checkout <branch>
 $ git merge upstream/<branch>
 ```
 
-### Cherry picking
+## Cherry picking
 
-#### Cherry pick merge from another branch
+### Cherry pick merge from another branch
 
 For cherry picking merge commits, you need to specify which parent of
 the merge will be used. This can be specified with `-m`
