@@ -6,6 +6,10 @@ date: 2021-02-26
 
 Short bullet points of mostly programming related stuff I've done.
 
+## 2021-02-27
+
+- Investigated building Rust-SDL2-OpenGL project in Webassembly, see [[wasm]].
+
 ## 2021-02-26
 
 - Updated book section.
